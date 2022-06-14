@@ -1,0 +1,104 @@
+.advantages {
+    
+    &__container {
+        margin-bottom: 351px;
+        position: relative;
+    }
+    
+    &__container-top {
+        background: #2C343E;
+        border-radius: 10px;
+        padding-bottom: 317px;
+    }
+    
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #FEFCF7;
+        padding-top: 100px;
+        margin-bottom: 32px;
+    }
+    
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        width: 540px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    &__list {
+        position: absolute;
+        display: flex;
+        bottom: -175px;
+        right: 80px;
+        list-style-type: none;
+        width: 1111px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    &__item {
+        padding: 150px 48px 48px 48px;
+        background: #0E8784;
+        border-radius: 8px;
+        transition: all 0.8s ease;
+        position: relative;
+        &:hover{
+            transform: scale(1.03);
+        }
+    }
+    &__item:nth-child(1):before{
+        content: url(../images/Shape.svg);
+        width: 72px;
+        height: 72px;
+        margin-left: 90px;
+    }
+    &__item:nth-child(2):before{
+        content: url(../images/present.svg);
+        width: 72px;
+        height: 72px;
+        margin-left: 90px;
+    }
+    &__item:nth-child(3):before{
+        content: url(../images/truck.svg);
+        width: 72px;
+        height: 72px;
+        margin-left: 90px;
+    }
+    &__item:not(:last-child){
+        margin-right: 30px;
+    }
+    
+    &__item-heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center; 
+        color: #FEFCF7;
+        margin-bottom: 24px;
+    }
+    
+    &__item-text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px; 
+        text-align: center;  
+        color: #FEFCF7;
+    }
+}

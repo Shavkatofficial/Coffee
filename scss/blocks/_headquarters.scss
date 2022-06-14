@@ -1,0 +1,53 @@
+.headquarters {
+    
+    &__heading {
+        margin-bottom: 72px;
+    }
+    
+    &__item {
+        margin-right: 108px;
+        position: relative;
+        padding-top: 95px;
+        width: 272px;
+        &:nth-child(1):before {
+            content: url(../images/aqsh.svg);
+            position: absolute;
+            top: 0;
+            width: 42px;
+            height: 49px;  
+        }
+        &:nth-child(1):before{
+            content: url(../images/aqsh.svg);
+            position: absolute;
+            top: 0;
+            width: 42px;
+            height: 49px;  
+        }
+        &:nth-child(3):before{
+            content: url(../images/australia.svg);
+            position: absolute;
+            top: 0;
+            width: 49px;
+            height: 44px;  
+        }
+    }
+    
+    &__item-heading {
+        margin-bottom: 24px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+    }
+    
+    &__item-text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+}

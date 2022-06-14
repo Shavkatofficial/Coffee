@@ -1,0 +1,38 @@
+.commitment {
+    
+    &__inner-wrapper {
+        max-width: 1151px;
+    }
+    
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+    
+    &__wrapper {
+        width: 540px;
+    }
+    
+    &__heading {
+        margin-bottom: 32px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B; 
+    }
+    
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;  
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+}
