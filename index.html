@@ -36,15 +36,53 @@
         <section class="hero">
             <div class="container">
                 <div class="hero__container">
-                    <div class="hero__container-wrapper">
-                        <h1 class="hero__heading">Great coffee made simple.</h1>
-                        <p class="hero__text">Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
-                        <button class="hero__button">Create your plan</button>
-                    </div>
+                    <picture>
+
+                        <!-- avif -->
+                        <source
+                        type="image/avif"
+                        media="(max-width:400px)"
+                        srcset="./images/hero-bgc-img-400px.avif 1x, ./hero-bgc-img-400px@2x.avif" 2x>
+
+                        <source
+                        type="image/avif"
+                        media="(max-width:800px)"
+                        srcset="./images/hero-bgc-img-800px.avif 1x, ./hero-bgc-img-800px@2x.avif" 2x>
+
+                        <source
+                        type="image/avif"
+                        srcset="./images/hero-bgc-img.avif 1x, ./hero-bgc-img@2x.avif" 2x>
+
+                        <!-- webp -->
+                        <source
+                        type="image/webp"
+                        media="(max-width:400px)"
+                        srcset="./images/hero-bgc-img-400px_webp 1x, ./hero-bgc-img-400px@2x_webp" 2x>
+
+                        <source
+                        type="image/webp"
+                        media="(max-width:800px)"
+                        srcset="./images/hero-bgc-img-800px_webp 1x, ./hero-bgc-img-800px@2x_webp" 2x>
+
+                        <source
+                        type="image/webp"
+                        srcset="./images/hero-bgc-img_webp 1x, ./hero-bgc-img@2x.webp" 2x>
+
+                        <!-- jpg -->
+                        <source
+                        media="(max-width:400px)"
+                        srcset="./images/hero-bgc-img-400px.jpg 1x, ./hero-bgc-img-400px@2x.jpg" 2x>
+
+                        <source
+                        media="(max-width:800px)"
+                        srcset="./images/hero-bgc-img-800px.jpg 1x, ./hero-bgc-img-800px@2x.jpg" 2x>
+
+                        <img src="./images/hero-bgc-img.jpg" alt="" srcset="./images/hero-bgc-img.jpg 1x, ./images/hero-bgc-img@2x.jpg 2x">
+                    </picture>
                 </div>
             </div>
         </section>
-
+        
         <section class="collection">
             <div class="container">
                 <div class="collection__container">
@@ -56,7 +94,7 @@
                             <p class="collection__item-text">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
                         </li>
                         <li class="collection__item">
-                            <img class="collection__item-img" src="./images/penalto.png" alt="espresso" width="256" height="193">
+                            <img class="collection__item-img" src="./images/planalto.png" alt="espresso" width="256" height="193">
                             <h3 class="collection__item-heading">Planalto</h3>
                             <p class="collection__item-text">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
                         </li>
@@ -74,7 +112,7 @@
                 </div>
             </div>
         </section>
-
+        
         <section class="advantages">
             <div class="container">
                 <div class="advantages__container">
@@ -101,7 +139,7 @@
                 </div>
             </div>
         </section>
-
+        
         <section class="plan">
             <div class="container plan__inner-wrapper">
                 <div class="plan__container">

@@ -506,9 +506,6 @@ template {
 }
 
 .hero__container {
-  width: 1280px;
-  height: 600px;
-  background-image: url(../images/hero-bgc-img.jpg);
   border-radius: 10px;
   margin-bottom: 120px;
 }
